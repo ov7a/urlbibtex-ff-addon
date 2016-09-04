@@ -1,0 +1,16 @@
+{
+  "title": "UrlBibTex",
+  "name": "urlbibtex",
+  "version": "0.0.1",
+  "description": "Get BibTeX entry from current url.",
+  "main": "index.js",
+  "author": "ov7a",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
