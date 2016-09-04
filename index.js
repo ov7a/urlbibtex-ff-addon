@@ -8,7 +8,7 @@ function zero_pad(n) {
 
 function format(name, title, url, date, lang){
 return	`@online{${name},
-	title = {${title}}
+	title = {${title}},
 	url = {${url}},
 	urldate = {${date}},
 	language = {${lang}}
