@@ -55,7 +55,7 @@ var menuItem = contextMenu.Item({
 		language = "english";
 	}
 	var date = new Date();
-	var dateStr = [zero_pad(date.getDate()), zero_pad(date.getMonth()), date.getFullYear()].join('.');
+	var dateStr = [zero_pad(date.getDate()), zero_pad(date.getMonth() + 1), date.getFullYear()].join('.');
 	var msg = format(name, params.title, params.url, dateStr, language.toLowerCase());
 	clipboard.set(msg);
 	}

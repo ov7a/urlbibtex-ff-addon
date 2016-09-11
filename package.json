@@ -1,7 +1,7 @@
 {
   "title": "UrlBibTex",
   "name": "urlbibtex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get BibTeX entry from current url.",
   "main": "index.js",
   "author": "ov7a",
